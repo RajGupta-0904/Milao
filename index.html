@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Naukari</title>
+</head>
+<style>
+    button{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
+  }
+  button:hover{
+    background-color: blue;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+    .cont {
+        width: 70vw;
+        float: right;
+        margin-left: 40px;
+    }
+
+    .abc {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .input-group {
+        width: 30vw;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .loc {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .side{
+        width: 20vw;
+        margin-left: 40px;
+    }
+    .upcont{
+        display: flex;
+        float: left;
+    }
+    h4{
+        padding: 20px;
+    }
+    .filter{
+        padding: 10px;
+    }
+    .filter label{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card img{
+        width: 30%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+    }
+   
+</style>
+
+<body>
+    <div class="abc">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <li class="img"><img src="7.png" height=35px width=40px alt=""></li>
+                <a class="nav-link active" aria-current="page" href="#">Milao</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Search Naukari!</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Company Review</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Find Salaries</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <button class="loc"> 🔍 Project Designer ❌</button>
+                <button class="loc"> UI Designer ❌</button>
+            </div>
+            <div class="col">
+                <button class="loc">New Delhi,India</button>
+            </div>
+            <div class="col">
+                <div class="input-group">
+                    <button class="loc"> 🔍 Job Type</button>
+                    <button class="loc"> 🔍 Find salary</button>
+                    <button type="button" class="btn btn-outline-primary">Find Job</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jobs -->
+    <div class="upcont">
+        <div class="side">
+            <div class="card" style="width: 18rem;">
+            
+                <div class="card-body">
+                    <h5 class="card-title">Create Job Alert!</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                        labore
+                        aliquam facere enim.</p>
+                        <input type="search" class="form-control rounded" placeholder="Enter Job Keyword" aria-label="Search"
+                        aria-describedby="search-addon" />
+                    <a href="jobdesc.html" class="btn btn-primary">Create Job</a>
+                </div>
+            </div>
+            <h4>Type of Employment</h4>
+            <div class="filter">
+                <label class="container">Full-Time Jobs
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">Part-time Jobs
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">Internshops
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">Remote-jobs
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+            </div>
+            <h4>Security Level</h4>
+            <div class="filter">
+                <label class="container">Entry Level
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container"> Mid Level
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">Student Level
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">Senior Level
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+            </div>
+            <h4>Salary Range</h4>
+            <div class="filter">
+                <label class="container">1000$-2000$
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container"> 2000$-3000$
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">5000$-10000$
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">10000$-20000$
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">30000$-40000$
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">40000$-50000$
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+            </div>
+        
+        </div>
+        <div class="cont">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">UI/UX Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                                    labore
+                                    aliquam facere enim.</p>
+                                    <button>Apply Now</button>
+                                    <button>Message</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Designer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+                                    vero
+                                    alias facilis deleniti.</p>
+                                    <button>Apply Now</button>
+                                    <button>Message</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">User Experience Designer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <button>Apply Now</button>
+                                    <button>Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">UI Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                                    labore
+                                    aliquam facere enim.</p>
+                                    <button>Apply Now</button>
+                                    <button>Message</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Python Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+                                    vero
+                                    alias facilis deleniti.</p>
+                                    <button>Apply Now</button>
+                                    <button>Message</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Php Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <button>Apply Now</button>
+                                    <button>Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Java Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                                    labore
+                                    aliquam facere enim.</p>
+                                    <button>Apply Now</button>
+                                    <button>Message</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">User Interface  Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+                                    vero
+                                    alias facilis deleniti.</p>
+                                    <button>Apply Now</button>
+                                    <button>Message</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Java Script Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <button>Apply Now</button>
+                                    <button>Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html
